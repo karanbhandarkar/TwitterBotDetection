@@ -1,5 +1,5 @@
-## CSCIS-109a - Introduction To Data Science - Final Project
-### Contributors: [Karan Bhandarkar](mailto:karanbhandarkar@gmail.com), [Vivek Mishra](mailto:iblpvivek@icloud.com)
+### CSCIS-109a - Introduction To Data Science - Final Project
+#### Contributors: [Karan Bhandarkar](mailto:karanbhandarkar@gmail.com), [Vivek Mishra](mailto:iblpvivek@icloud.com)
 
 
 ## [Welcome](welcome) | [Introduction and EDA](intro-and-eda) | [Literature Review](lit-review) | [Models](models)  | [Results and Conclusion](results-and-concl)
