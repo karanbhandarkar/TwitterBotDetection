@@ -2,7 +2,6 @@
 ### Contributors: [Karan Bhandarkar](mailto:karanbhandarkar@gmail.com), [Vivek Mishra](mailto:iblpvivek@icloud.com)
 <HR>
 ### [Welcome](welcome) | [Introduction and EDA](intro-and-eda) | [Literature Review](lit-review) | [Models](models)  | [Results and Conclusion](results-and-concl)
-<HR>
 
 You can use the [editor on GitHub](https://github.com/karanbhandarkar/TwitterBotDetection/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
