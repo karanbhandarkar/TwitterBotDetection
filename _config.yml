@@ -1,4 +1,2 @@
 theme: jekyll-theme-slate
-webrick:
-  headers:
-    [Welcome]: (welcome)
+
