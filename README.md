@@ -1,3 +1,7 @@
+## CSCIS-109a - Introduction To Data Science - Final Project
+### Contributors: [Karan Bhandarkar](EmailTo:karanbhandarkar@gmail.com), [Vivek Mishra](iblpvivek@icloud.com)
+
+
 ## [Welcome](welcome) | [Introduction and EDA](intro-and-eda) | [Literature Review](lit-review) | [Models](models)  | [Results and Conclusion](results-and-concl)
 
 You can use the [editor on GitHub](https://github.com/karanbhandarkar/TwitterBotDetection/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
