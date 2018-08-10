@@ -31,8 +31,12 @@ Tweet details contain many details, most of which can be eyeballed and considere
 
 In the real world, it is common to follow a lot more accounts than the number that follow you. People follow celebrity accounts, public figure accounts, company accounts and a lot more. Bots however, show a distict behaviour. They either are followed by close to none, or follow close to no accounts.
 
-2. <img src="../images/ListCounts.png"
+2. List Counts of Bots and Non-Bots
+
+<img src="../images/ListCounts.png"
      style="float: left; margin-right: 10px;" />
+
+This is obviously another indicator of popularity – the more lists you are on, the more popular you probably are. There is a clear distinction in the disctribution of this feature between bots and non-bots. Non-bots seem to have a kind of uniform distribution with tapering frequency at hight counts. The distribution of bots seems to be concentrated at the lower end of the counts spectrum.
 
 [Back to top](#content)
 
