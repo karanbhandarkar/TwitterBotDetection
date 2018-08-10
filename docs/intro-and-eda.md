@@ -7,8 +7,8 @@
 
 ## Content:
 1. [Data Resources](#data-resources)
-2. [Key Features](#key-features)
-3. [EDA](#eda)
+2. [EDA](#eda)
+3. [Key Features](#key-features)
 
 <HR>
   
@@ -22,10 +22,10 @@ Tweet details contain many details, most of which can be eyeballed and considere
 
 [Back to top](#content)
 
-### Key Features
+### EDA
 
 [Back to top](#content)
 
-### EDA
+### Key Features
 
 [Back to top](#content)
