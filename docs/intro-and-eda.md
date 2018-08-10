@@ -74,12 +74,16 @@ A key identification factor for bots v/s non-bots is the number of tweets per da
 <img src="../images/ExtendedProfile.png"
      style="float: left; margin-right: 10px;" />
      
+The presence of an extended profile does not seem to be of significance. The distribution in true and false classes seems to be pretty similar in bots and non-bots. This comes as a suprise.
+     
 [Back to top](#content)
 
 #### Default Profile Image
 
 <img src="../images/DefaultImage.png"
      style="float: left; margin-right: 10px;" />
+
+Default profile image doesn't seem to be a significant feature. The small population of bots could be attributed to noise or could be considered a sign of being a bot, since non-bots have no accounts with default profile images. This could also just be a case of representations in sampled data and maybe there are non-bot accounts with default profile images too. Hence, we will consider this feature to be insignificant.
 
 [Back to top](#content)
 
@@ -88,6 +92,7 @@ A key identification factor for bots v/s non-bots is the number of tweets per da
 <img src="../images/DefaultProfile.png"
      style="float: left; margin-right: 10px;" />
 
+Bot accounts have a much higher likelihood of having a default profile. It drops from over 50% in bots to under 25% in non-bots. Having a default profile, is hence a strong indicator of a bot. 
 
 [Back to top](#content)
 
