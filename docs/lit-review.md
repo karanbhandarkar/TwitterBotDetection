@@ -23,13 +23,13 @@
 #### [Twitter Bot Detection](https://github.com/RohanBhirangi/Twitter-Bot-Detection)
 
 Observations from this project:<BR>
-1.Decision Tree classifier provides the highest accuracy<BR>
-1.High precision (>97%) values for all the classifiers<BR>
-1.High precision denotes low false-positives (the probability of a user being identified as bot when it is a non-bot is low)<BR>
-1.Thus, the models efficiently identify a non-bot account<BR>
-1.But we get low recall score for the classifiers<BR>
-1.Which means there are a lot of false-negatives in our prediction<BR>
-1.These are twitter accounts which are bots but are identified as non-bots<BR>
+1. Decision Tree classifier provides the highest accuracy<BR>
+2. High precision (>97%) values for all the classifiers<BR>
+3. High precision denotes low false-positives (the probability of a user being identified as bot when it is a non-bot is low)<BR>
+4. Thus, the models efficiently identify a non-bot account<BR>
+5. But we get low recall score for the classifiers<BR>
+6. Which means there are a lot of false-negatives in our prediction<BR>
+7. These are twitter accounts which are bots but are identified as non-bots<BR>
 
 #### [Detecting Twitter Bots using Machine Learning](https://github.com/jubins/MachineLearning-Detecting-Twitter-Bots)
 
