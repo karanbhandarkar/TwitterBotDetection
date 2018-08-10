@@ -8,7 +8,7 @@
 ## Content:
 1. [Data Resources](#data-resources)
 2. [EDA](#eda) <BR>
-&emsp;a. [Ratio of Friends Count to Followers Count](#1.ratio-of-friend-count-to-followers-count)
+&emsp;a. [Ratio of Friends Count to Followers Count](#a)-ratio-of-friend-count-to-followers-count)
 3. [Key Features](#key-features)
 
 <HR>
@@ -25,7 +25,7 @@ Tweet details contain many details, most of which can be eyeballed and considere
 
 ### EDA
 
-#### 1. Ratio of Friends Count to Followers Count
+#### a) Ratio of Friends Count to Followers Count
 
 <img src="../images/FriendsToFollowers.png"
      style="float: left; margin-right: 10px;" />
