@@ -122,4 +122,5 @@ We check for any obvious correlation and then proceed.
 
 [Back to top](#content)
 
-<img src= "{{ "../images/DefaultImage.png" | prepend: site.baseurl }}">
+<img src="images/FriendsToFollowers.png"
+     style="float: left; margin-right: 10px;" />
