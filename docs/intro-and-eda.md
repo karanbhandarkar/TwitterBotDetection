@@ -47,6 +47,13 @@ As expected, non-bot accounts have examples of verified as well as not-verified 
 
 A credible verified source bot, like possibly a newspaper's account, does not qualify as a bot for our intents and purposes. Thus, DFRLab and it's tweets were dropped from the datasets.
 
+#### 4. Tweets per Day
+
+<img src="../images/TweetsPerDay.png"
+     style="float: left; margin-right: 10px;" />
+
+A key identification factor for bots v/s non-bots is the number of tweets per day. The majority of the non-bots data lies in the 0-12 range, whereas the majority of the bots data lies in the 0-100 range. This is a major anomoly to help our cause.
+
 [Back to top](#content)
 
 ### Key Features
