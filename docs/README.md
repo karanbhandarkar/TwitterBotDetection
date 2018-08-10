@@ -21,4 +21,12 @@ Well, not exactly. [According to the Financial Times](https://www.ft.com/conte
 
 Both of these events were [caused by the proliferation of high-frequency trading](http://www.dailymail.co.uk/sciencetech/article-3090221/The-tweet-cost-139-BILLION-Researchers-analyse-impact-hacked-message-claiming-President-Obama-injured-White-House-explosion.html), or the practice of Wall Street firms using high-powered computers to execute thousands or millions of trades per second, making minuscule profits — that add up in a big way — on each trade.
 
-Though nobody knows for sure what exactly precipitated the volatility, many market watchers blamed high-frequency traders, and more specifically the variety that use algorithms to comb through the internet at lightning-quick speeds, actually “reading” news items and tweets, and making trades based off of that information.
+[High frequency and algorithmic trading are taking over markets](https://medium.com/@ruzbehb/high-frequency-and-algo-trading-are-taking-over-markets-what-it-means-for-you-7017dec1308e). Traders have started using algortihms to comb through the internet at lightning fast speeds. Social sentiment has become a big part of these algorithms and hence, a major cause for concern for market volatility. It has become vital to validate the authenticity of the social sentiment and this, is the motivation behind our project.
+
+<HR>
+### Problem Statement:
+
+In this project, the goal is to detect Twitter bots using tweets data from the Twitter developer API by utilizing machine learning techniques. This will be done to determine whether a financial tweet is of significance or not. How do we do this?
+1. The first step is to create our own dataset. We will mine the data for the project using the Twitter API and utilize feature engineering and pre-processing techniques to prepare the data for analysis.
+1. Create several models to determine characteristics of different types of twitter users. Create at least one model that uses natural language processing techniques, such as topic modeling [6], and at least one model that uses a classification algorithm. We may decide to have models that use both. We will provide evidence of success at detecting bots when compared to human users or explain why it wasn’t possible. 
+1. Perform a comparison of your models. This will include an error analysis and an evaluation of the predictive quality of your models. 
