@@ -26,7 +26,9 @@ Tweet details contain many details, most of which can be eyeballed and considere
 
 1. Ratio of Friends Count to Followers Count
 
-[FriendsToFollowers](../images/FriendsToFollowers.png)
+<img src="../images/FriendsToFollowers.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 [Back to top](#content)
 
