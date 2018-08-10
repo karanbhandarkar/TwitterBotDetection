@@ -5,9 +5,9 @@
 ### [**_Welcome_**](README.md)&emsp;|&emsp;[Introduction and EDA](intro-and-eda.md)&emsp;|&ensp;[Literature Review](lit-review.md)&emsp;|&emsp;[Models](models.md)&emsp;|&emsp;[Results and Conclusion](results-and-concl.md)
 <HR>
 
-## Table of Contents
-1. [Example](#motivation)
-2. [Example2](#problem-statement)
+## Contents
+1. [Motivation](#motivation)
+2. [Problem Statement](#problem-statement)
 
 ### motivation
 ### problem-statement
