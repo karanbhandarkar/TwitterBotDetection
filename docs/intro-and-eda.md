@@ -5,11 +5,15 @@
 ### [Welcome](README.md)&emsp;|&emsp;[**_Introduction and EDA_**](intro-and-eda.md)&emsp;|&ensp;[Literature Review](lit-review.md)&emsp;|&emsp;[Models](models.md)&emsp;|&emsp;[Results and Conclusion](results-and-concl.md)
 <HR>
 
-# Table of Contents
-1. [Example](#example)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
+## Content:
+1. [Data Resources](#data-resources)
+2. [Key Features](#key-features)
+3. [EDA](#eda)
 
-## Example
-## Example2
-## Third Example
+<HR>
+  
+### Data Resources
+
+### Key Features
+
+### EDA
