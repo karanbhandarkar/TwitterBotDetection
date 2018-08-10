@@ -6,7 +6,7 @@
 <HR>
 
 ## Contents
-1. [Motivation](#motivation)
+1. [Motivation](#Motivation)
 2. [Problem Statement](#problem-statement)
 
 ### motivation
@@ -17,7 +17,7 @@
 2. [Problem Statement](# ProblemStatement)
 <HR>
 
-### Motivation:
+### Motivation
 
 Manipulative robots are spreading fake news online that could be exacerbating volatility in financial markets.
 
