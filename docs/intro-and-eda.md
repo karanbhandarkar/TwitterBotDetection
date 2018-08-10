@@ -24,6 +24,10 @@ Tweet details contain many details, most of which can be eyeballed and considere
 
 ### EDA
 
+1. Ratio of Friends Count to Followers Count
+
+
+
 [Back to top](#content)
 
 ### Key Features
