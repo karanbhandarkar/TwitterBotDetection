@@ -5,16 +5,10 @@
 ### [**_Welcome_**](README.md)&emsp;|&emsp;[Introduction and EDA](intro-and-eda.md)&emsp;|&ensp;[Literature Review](lit-review.md)&emsp;|&emsp;[Models](models.md)&emsp;|&emsp;[Results and Conclusion](results-and-concl.md)
 <HR>
 
-## Contents
-1. [Motivation](#Motivation)
-2. [Problem Statement](#Problem Statement)
-
-### motivation
-### problem-statement
-
 ## Content:
-1. [Motivation](# Motivation)
-2. [Problem Statement](# ProblemStatement)
+1. [Motivation](#motivation)
+2. [Problem Statement](#problem-statement)
+
 <HR>
 
 ### Motivation
