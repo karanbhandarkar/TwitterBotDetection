@@ -15,6 +15,7 @@
 &emsp;e. [Extended Profile](#extended-profile) <BR>
 &emsp;f. [Default Profile Image](#default-profile-image) <BR>
 &emsp;g. [Default Profile](#default-profile) <BR>
+&emsp;h. [Word Cloud](#word-cloud) <BR>
 3. [Key Features](#key-features)
 
 <HR>
@@ -96,8 +97,19 @@ Bot accounts have a much higher likelihood of having a default profile. It drops
 
 [Back to top](#content)
 
-### Key Features
+#### Word Cloud
+
+<img src="../images/BotTweets.png"
+     style="float: left; margin-right: 10px;" />
+<img src="../images/NonBotTweets.png"
+     style="float: left; margin-right: 10px;" />
+     
+We can see that the non bots accounts have more meaning full text vs bot accounts are verbiage in some kind which is kind of what you would expect since most bot tweets are very short scripted with a youtube url ta or some link
 
 [Back to top](#content)
 
-### Ratio of Friends
+### Key Features
+
+
+
+[Back to top](#content)
