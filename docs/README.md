@@ -11,7 +11,7 @@
 
 <HR>
 
-### Motivation [Up](#content)
+### Motivation 
 
 Manipulative robots are spreading fake news online that could be exacerbating volatility in financial markets.
 
@@ -29,6 +29,8 @@ Both of these events were [caused by the proliferation of high-frequency trading
 
 [High frequency and algorithmic trading are taking over markets](https://medium.com/@ruzbehb/high-frequency-and-algo-trading-are-taking-over-markets-what-it-means-for-you-7017dec1308e). Traders have started using algortihms to comb through the internet at lightning fast speeds. Social sentiment has become a big part of these algorithms and hence, a major cause for concern for market volatility. It has become vital to validate the authenticity of the social sentiment and this, is the motivation behind our project.
 
+[Up](#content)
+
 <HR>
   
 ### Problem Statement:
@@ -39,3 +41,5 @@ In this project, the goal is to detect Twitter bots using tweets data from the T
 1. After this, we start modelling the data. Different models could capture different feature relations better. Try and capture this by using ensemble techniques.
 1. Create at least one model that uses natural language processing techniques, such as topic modeling, and at least one model that uses a classification algorithm. We may decide to have models that use both. Provide evidence of success at detecting bots when compared to human users or explain why it wasn’t possible. 
 1. Conclude with a comparison of the models. Include an error analysis and an evaluation of the predictive quality of the models. 
+
+[Up](#content)
