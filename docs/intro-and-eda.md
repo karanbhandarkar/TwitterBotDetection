@@ -124,3 +124,9 @@ We check for any obvious correlation and then proceed.
 
 <img src="/images/FriendsToFollowers.png"
      style="float: left; margin-right: 10px;" />
+
+<img src="../images/FriendsToFollowers.png"
+     style="float: left; margin-right: 10px;" />
+
+<img src="images/FriendsToFollowers.png"
+     style="float: left; margin-right: 10px;" />
