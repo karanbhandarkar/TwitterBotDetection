@@ -8,7 +8,7 @@
 ## Content:
 1. [Data Resources](#data-resources)
 2. [EDA](#eda) <BR>
-&emsp;a. [Ratio of Friends Count to Followers Count](#test)
+&emsp;a. [Ratio of Friends Count to Followers Count](#ratio-of-friends)
 3. [Key Features](#key-features)
 
 <HR>
@@ -77,4 +77,4 @@ A key identification factor for bots v/s non-bots is the number of tweets per da
 
 [Back to top](#content)
 
-### Test
+### Ratio of Friends
