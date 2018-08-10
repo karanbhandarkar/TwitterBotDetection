@@ -111,12 +111,12 @@ We can see that the non bots accounts have more meaning full text vs bot account
 ### Key Features
 
 Based on the EDA, a new dataset is created with only features deemed significant through plotting. These features are engineering from our initial set of features as:<BR>
-&emsp;a. Ratio of Friends Count to Followers Count
-&emsp;b. List Counts of Bots and Non-Bots]
-&emsp;c. Verified Status of Bots and Non-Bots
-&emsp;d. Tweets per Day
-&emsp;e. Default Profile
-&emsp;f. Statuses
+&emsp;a. Ratio of Friends Count to Followers Count <BR>
+&emsp;b. List Counts of Bots and Non-Bots <BR>
+&emsp;c. Verified Status of Bots and Non-Bots <BR>
+&emsp;d. Tweets per Day <BR>
+&emsp;e. Default Profile <BR>
+&emsp;f. Statuses <BR>
 
 We check for any obvious correlation and then proceed.
 
