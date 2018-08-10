@@ -24,14 +24,14 @@ Tweet details contain many details, most of which can be eyeballed and considere
 
 ### EDA
 
-1. Ratio of Friends Count to Followers Count
+#### 1. Ratio of Friends Count to Followers Count
 
 <img src="../images/FriendsToFollowers.png"
      style="float: left; margin-right: 10px;" />
 
 In the real world, it is common to follow a lot more accounts than the number that follow you. People follow celebrity accounts, public figure accounts, company accounts and a lot more. Bots however, show a distict behaviour. They either are followed by close to none, or follow close to no accounts.
 
-2. List Counts of Bots and Non-Bots
+#### 2. List Counts of Bots and Non-Bots
 
 <img src="../images/ListCounts.png"
      style="float: left; margin-right: 10px;" />
