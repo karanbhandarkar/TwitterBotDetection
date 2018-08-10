@@ -101,6 +101,7 @@ Bot accounts have a much higher likelihood of having a default profile. It drops
 
 <img src="images/BotTweets.png"
      style="float: left; margin-right: 10px;" />
+
 <img src="images/NonBotTweets.png"
      style="float: left; margin-right: 10px;" />
 
