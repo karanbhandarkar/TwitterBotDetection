@@ -37,7 +37,7 @@ Both of these events were [caused by the proliferation of high-frequency trading
 
 In this project, the goal is to detect Twitter bots using tweets data from the Twitter developer API by utilizing machine learning techniques. This will be done to determine whether a financial tweet is of significance or not. How do we do this?
 1. The first step is to create our own dataset. We will mine the data for the project using the Twitter API and utilize feature engineering and pre-processing techniques to prepare the data for analysis.
-1. The next step is to plot the data in various ways to try and get an understanding of trends in our data.
+1. The next step is to plot the data in various ways to try and get an understanding of trends in our data. We will use this for selecting significant features and engineering new ones, where required.
 1. After this, we start modelling the data. Different models could capture different feature relations better. Try and capture this by using ensemble techniques.
 1. Create at least one model that uses natural language processing techniques, such as topic modeling, and at least one model that uses a classification algorithm. We may decide to have models that use both. Provide evidence of success at detecting bots when compared to human users or explain why it wasn’t possible. 
 1. Conclude with a comparison of the models. Include an error analysis and an evaluation of the predictive quality of the models. 
