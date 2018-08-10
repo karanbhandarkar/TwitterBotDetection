@@ -8,6 +8,7 @@
 ## Content:
 1. [Data Resources](#data-resources)
 2. [EDA](#eda)
+  a.[Ratio of Friends Count to Followers Count](#ratio-of-friends-count-to-followers-count)
 3. [Key Features](#key-features)
 
 <HR>
