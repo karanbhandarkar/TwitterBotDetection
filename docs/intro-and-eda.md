@@ -8,7 +8,13 @@
 ## Content:
 1. [Data Resources](#data-resources)
 2. [EDA](#eda) <BR>
-&emsp;a. [Ratio of Friends Count to Followers Count](#a.-ratio-of-friends-count-to-followers-count)
+&emsp;a. [Ratio of Friends Count to Followers Count](#ratio-of-friends-count-to-followers-count)
+&emsp;b. [List Counts of Bots and Non-Bots](#list-counts-of-bots-and-non-bots)
+&emsp;c. [Verified Status of Bots and Non-Bots](#verified-status-of-bots-and-non-bots)
+&emsp;d. [Tweets per Day](#tweets-per-day)
+&emsp;e. [Extended Profile](#extended-profile)
+&emsp;f. [Default Profile Image](#default-profile-image)
+&emsp;g. [Default Profile](#default-profile)
 3. [Key Features](#key-features)
 
 <HR>
@@ -25,21 +31,21 @@ Tweet details contain many details, most of which can be eyeballed and considere
 
 ### EDA
 
-#### a. Ratio of Friends Count to Followers Count
+#### Ratio of Friends Count to Followers Count
 
 <img src="../images/FriendsToFollowers.png"
      style="float: left; margin-right: 10px;" />
 
 In the real world, it is common to follow a lot more accounts than the number that follow you. People follow celebrity accounts, public figure accounts, company accounts and a lot more. Bots however, show a distict behaviour. They either are followed by close to none, or follow close to no accounts.
 
-#### 2. List Counts of Bots and Non-Bots
+#### List Counts of Bots and Non-Bots
 
 <img src="../images/ListCounts.png"
      style="float: left; margin-right: 10px;" />
 
 This is obviously another indicator of popularity – the more lists you are on, the more popular you probably are. There is a clear distinction in the disctribution of this feature between bots and non-bots. Non-bots seem to have a kind of uniform distribution with tapering frequency at hight counts. The distribution of bots seems to be concentrated at the lower end of the counts spectrum.
 
-#### 3. Verified Status of Bots and Non-Bots
+#### Verified Status of Bots and Non-Bots
 
 <img src="../images/Verified.png"
      style="float: left; margin-right: 10px;" />
@@ -48,24 +54,24 @@ As expected, non-bot accounts have examples of verified as well as not-verified 
 
 A credible verified source bot, like possibly a newspaper's account, does not qualify as a bot for our intents and purposes. Thus, DFRLab and it's tweets were dropped from the datasets.
 
-#### 4. Tweets per Day
+#### Tweets per Day
 
 <img src="../images/TweetsPerDay.png"
      style="float: left; margin-right: 10px;" />
 
 A key identification factor for bots v/s non-bots is the number of tweets per day. The majority of the non-bots data lies in the 0-12 range, whereas the majority of the bots data lies in the 0-100 range. This is a major anomoly to help our cause.
 
-#### 5. Extended Profile
+#### Extended Profile
 
 <img src="../images/ExtendedProfile.png"
      style="float: left; margin-right: 10px;" />
      
-#### 6. Default Profile Image
+#### Default Profile Image
 
 <img src="../images/DefaultImage.png"
      style="float: left; margin-right: 10px;" />
 
-#### 7. Default Profile
+#### Default Profile
 
 <img src="../images/DefaultProfile.png"
      style="float: left; margin-right: 10px;" />
