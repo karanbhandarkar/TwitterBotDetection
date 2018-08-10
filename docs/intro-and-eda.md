@@ -121,3 +121,5 @@ Based on the EDA, a new dataset is created with only features deemed significant
 We check for any obvious correlation and then proceed.
 
 [Back to top](#content)
+
+<img src= "{{ "../images/DefaultImage.png" | prepend: site.baseurl }}">
