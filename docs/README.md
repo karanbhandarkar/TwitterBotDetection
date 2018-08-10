@@ -5,38 +5,20 @@
 ### [**_Welcome_**](README.md)&emsp;|&emsp;[Introduction and EDA](intro-and-eda.md)&emsp;|&ensp;[Literature Review](lit-review.md)&emsp;|&emsp;[Models](models.md)&emsp;|&emsp;[Results and Conclusion](results-and-concl.md)
 <HR>
 
-You can use the [editor on GitHub](https://github.com/karanbhandarkar/TwitterBotDetection/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Motivation:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Manipulative robots are spreading fake news online that could be exacerbating volatility in financial markets.
 
-### Markdown
+A [major study](https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=RESConf2018&paper_id=874)  of tens of millions of tweets over two years found that the sheer volume sent by “bots” helped to drive shares in FTSE 100 companies up or down for short periods, effectively moving markets. Tweets sent by humans typically had a positive impact on stock prices while those sent by robots were more often negative, according to research presented to the Royal Economic Society by economists Oleksandr Talavera, Rui Fan and Vu Tran.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Robot messages typically had an effect for up to half an hour, pulling down prices and increasing volatility.
 
-```markdown
-Syntax highlighted code block
+In 2013, the Twitter feed of the Associated Press told us that [Barack Obama had been injured in an explosion at the White House](https://www.theguardian.com/business/2013/apr/23/ap-tweet-hack-wall-street-freefall). The tweet was fake — the product of a hack — but given the events in Boston earlier in the week, the news spread like wildfire, garnering more that 4,000 retweets.
 
-# Header 1
-## Header 2
-### Header 3
+The AP quickly addressed the situation, suspending its Twitter account, and alerting readers through associated accounts that the tweet describing an explosion at the White House was the result of a hack.  No harm, no foul, right?
 
-- Bulleted
-- List
+Well, not exactly. [According to the Financial Times](https://www.ft.com/content/33685e56-ac3d-11e2-a063-00144feabdc0#axzz2RLrglMyc), that one tweet sent shock waves through the stock market — causing the S&P 500 to decline 0.9% — enough to wipe out $130 billion in stock value in a matter of seconds. The market quickly recovered that value, but the breakneck pace at which the stock market tumbled reminded many people of the infamous 2010 “flash crash,” or 2012's crisis at Knight Capital Management, in which a computer glitch cost the firm $440 million and nearly sent it into bankruptcy.
 
-1. Numbered
-2. List
+Both of these events were caused by the proliferation of high-frequency trading, or the practice of Wall Street firms using high-powered computers to execute thousands or millions of trades per second, making minuscule profits — that add up in a big way — on each trade.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/karanbhandarkar/TwitterBotDetection/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Though nobody knows for sure what exactly precipitated the volatility, many market watchers blamed high-frequency traders, and more specifically the variety that use algorithms to comb through the internet at lightning-quick speeds, actually “reading” news items and tweets, and making trades based off of that information.
