@@ -25,7 +25,7 @@ Tweet details contain many details, most of which can be eyeballed and considere
 
 ### EDA
 
-#### Ratio of Friends Count to Followers Count
+#### a. Ratio of Friends Count to Followers Count
 
 <img src="../images/FriendsToFollowers.png"
      style="float: left; margin-right: 10px;" />
