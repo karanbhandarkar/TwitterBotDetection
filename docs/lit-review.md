@@ -7,14 +7,30 @@
 
 
 ## Content:
-1. [Literature Review](#literature-review)
+1. [References](#references)
 
 1. [Related Work](#related-work)
 
 <HR>
   
-### Literature Review
+### References
 
+1. Stefan Wojcik, “Bots in the Twittersphere”: http://www.pewinternet.org/2018/04/09/bots-in- the-twittersphere/ 
+
+2. Chris Baraniuk, “How Twitter Bots Help Fuel Political Feuds”: https://www.scientificamerican.com/article/how-twitter-bots-help-fuel-political-feuds/ 
+
+3. Chengcheng Shao et al., “The spread of low credibility content by social bots”: https://arxiv.org/pdf/1707.07592.pdf
+
+4. The tweepy Python library: http://www.tweepy.org
+
+5. Twitter’s developer resources to learn about the API: https://developer.twitter.com 
+
+6. Asbjan Ottesen Steinskog et al., ”Twitter Topic Modeling by Tweet Aggregation": http://www.aclweb.org/anthology/W17-0210 
+Time Magazine: http://business.time.com/2013/04/24/how-does-one-fake-tweet-cause-a-stock-market-crash/
+
+7. The Telegraph: https://www.telegraph.co.uk/business/2018/03/31/twitter-bots-manipulating-stock-markets-fake-news-spreads-finance/
+
+8. Twelve ways to spot a bot: https://medium.com/dfrlab/botspot-twelve-ways-to-spot-a-bot-aedc7d9c110c
 
 [Back to top](#content)
 
