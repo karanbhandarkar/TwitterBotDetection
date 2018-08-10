@@ -38,6 +38,13 @@ In the real world, it is common to follow a lot more accounts than the number th
 
 This is obviously another indicator of popularity – the more lists you are on, the more popular you probably are. There is a clear distinction in the disctribution of this feature between bots and non-bots. Non-bots seem to have a kind of uniform distribution with tapering frequency at hight counts. The distribution of bots seems to be concentrated at the lower end of the counts spectrum.
 
+#### 3. Verified Status of Bots and Non-Bots
+
+<img src="../images/Verified.png"
+     style="float: left; margin-right: 10px;" />
+
+As expected, non-bot accounts have examples of verified as well as not-verified accounts and bot accounts are always not-verified. Well, almost. Though, through further exploration, we noted that the small sample of 'verified' in the bots' histogram belongs to DFRLabs which has a bot twitter account but is a credible verified source.
+
 [Back to top](#content)
 
 ### Key Features
