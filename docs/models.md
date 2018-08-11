@@ -12,7 +12,7 @@ Data Modelling
   * [Logistic Regression with Polynomials of Degree 3](#logistic-regression-with-polynomials-of-degree-3)
   * [Decision Tree Classifier](#decision-tree-classifier)
   * [Random Forest Classifier](#random-forest-classifier)
-  * [Boosting AdaBoost Classifier](#boosting-adaboost-classifier)
+  * [Boosting AdaBoost Classifier](#boosting-adaBoost-classifier)
   * [Ensemble Modelling](#ensemble-modelling)
   * [Neural Networks](#neural-networks)
 
