@@ -8,7 +8,7 @@
 ## Content:
 1. [Data Resources](#data-resources)
 2. [EDA](#eda) <BR>
-  * [Ratio of Friends Count to Followers Count](#ratio-of-friends-count-to-followers-count) <BR>
+&emsp; * [Ratio of Friends Count to Followers Count](#ratio-of-friends-count-to-followers-count) <BR>
   * [List Counts of Bots and Non-Bots](#list-counts-of-bots-and-non-bots) <BR>
   * [Verified Status of Bots and Non-Bots](#verified-status-of-bots-and-non-bots) <BR>
   * [Tweets per Day](#tweets-per-day) <BR>
