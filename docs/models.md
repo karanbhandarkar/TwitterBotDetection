@@ -6,7 +6,7 @@
 <HR>
 
 ## Content:
-Data Modelling
+- Data Modelling
   * [Logistic Regression Model](#logistic-regression-model)
   * [Logistic Regression with Cross Validation](#logistic-regression-with-cross-validation)
   * [Logistic Regression with Polynomials of Degree 3](#logistic-regression-with-polynomials-of-degree-3)
@@ -104,7 +104,8 @@ ax.set_ylabel("Performace", fontsize=15)
 ax.set_title("Decision Tree Performance with Varying Depth", fontsize=20)
 ax.legend()
 ~~~~
-
+<img src="images/DecisionTreeVaryingDepth.png"
+     style="float: left; margin-right: 10px;" />
 
 #### Looking at the above graph looks like depth 6 seems to be perfect for our data. So we are going to use that depth to build our model and try testing it on the test data set
 
