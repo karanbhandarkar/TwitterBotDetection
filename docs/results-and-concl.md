@@ -38,4 +38,6 @@ The neural network has the best performance on the test set, as expected.
 
 ### Future Work
 
+The work in this project was restricted to user account features. Future work will include using NLP algorithms to study user tweets.
+
 [Back to top](#content)
