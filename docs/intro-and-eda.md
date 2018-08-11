@@ -99,6 +99,8 @@ Bot accounts have a much higher likelihood of having a default profile. It drops
 
 #### Word Cloud
 
+We can see that the non bots accounts have more meaning full text vs bot accounts are verbiage in some kind which is kind of what you would expect since most bot tweets are very short scripted with a youtube url ta or some link
+
 <img src="images/BotTweets.png"
      style="float: left; margin-right: 10px;" />
 <BR>
@@ -106,7 +108,6 @@ Bot accounts have a much higher likelihood of having a default profile. It drops
      style="float: left; margin-right: 10px;" />
 <BR>
 
-We can see that the non bots accounts have more meaning full text vs bot accounts are verbiage in some kind which is kind of what you would expect since most bot tweets are very short scripted with a youtube url ta or some link
 
 [Back to top](#content)
 
