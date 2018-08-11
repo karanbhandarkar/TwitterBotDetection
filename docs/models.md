@@ -6,7 +6,7 @@
 <HR>
 
 ## Content:
-1. [Data Preparation](TwitterDataPreProcessing.ipynb)
+1. [Data Preparation](../TwitterDataPreProcessing.ipynb)
 1. [Data Modelling](#related-work)
    * [Logistic Regression Model](#logistic-regression-model)
 
