@@ -6,10 +6,26 @@
 <HR>
 
 ## Content:
-1. [Data Preparation](../TwitterDataPreProcessing.ipynb)
-1. [Data Modelling](#related-work)
-   * [Logistic Regression Model](#logistic-regression-model)
+Data Modelling
+  * [Logistic Regression Model](#logistic-regression-model)
 
 <HR>
   
 ### Logistic Regression Model
+
+~~~~
+from sklearn.linear_model import LogisticRegression
+
+model_collection = {}
+
+logit_model = LogisticRegression().fit(X_train, y_train)
+
+logistic_model_score = logit_model.score(X_test, y_test)
+
+model_collection["simple_logistic"] = logit_model
+
+print("Train set score: {0:4.4}%".format(logit_model.score(X_train, y_train)*100))
+print("Test set score: {0:4.4}%".format(logit_model.score(X_test, y_test)*100))
+~~~~
+Train set score: 89.52%
+Test set score: 89.62%
