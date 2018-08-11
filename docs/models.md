@@ -228,12 +228,14 @@ model.summary()
 ~~~~
 <img src="images/NNModelSummary.htm"
      style="float: left; margin-right: 10px;" />
-
 ~~~~
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 model.fit(X_train, y_train, epochs=5, batch_size=32, validation_split = .2)
-
+~~~~
+<img src="images/NNModelFit.htm"
+     style="float: left; margin-right: 10px;" />
+~~~~
 print(model.evaluate(X_test, y_test))
 ~~~~
 83624/83624 [==============================] - 2s 26us/step
