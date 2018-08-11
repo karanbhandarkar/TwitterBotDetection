@@ -81,7 +81,7 @@ Test set score with Polynomial Features and with Cross Validation: 92.56%
 
 ### Decision Tree Classifier
 
-We are going to look at how Decision Tree Classifier fits into our data set, we are going to look at multiple depths and use cross validation score method of sklearn to find out which depth fits perfect and not overfit.
+#### We are going to look at how Decision Tree Classifier fits into our data set, we are going to look at multiple depths and use cross validation score method of sklearn to find out which depth fits perfect and not overfit.
 ~~~~
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import cross_val_score
@@ -107,7 +107,22 @@ ax.legend()
 <img src="images/DecisionTreeVaryingDepth.png"
      style="float: left; margin-right: 10px;" />
 
-#### Looking at the above graph looks like depth 6 seems to be perfect for our data. So we are going to use that depth to build our model and try testing it on the test data set
+#### Looking at the above graph looks like depth 6 seems to be perfect for our data. So we are going to use that depth to build our model and try testing it on the test data set.
+
+~~~~
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import cross_val_score
+
+decision_tree_model = DecisionTreeClassifier(max_depth = 6).fit(X_train, y_train)
+
+model_collection["decision_tree"] = decision_tree_model
+score = decision_tree_model.score(X_test, y_test)
+
+print("Decision Tree Classifier Model score for test data: {0:4.4}%".format(score*100))
+~~~~
+Decision Tree Classifier Model score for test data: 97.08%
+ 
+#### Our decision tree seems to be peforming very poorly compared to other models, There are mulitple strategies that we have learnt in the class, we can apply Boosting , Bagging and Prunning to improve the results of the decision tree
 
 [Back to top](#content)
 
