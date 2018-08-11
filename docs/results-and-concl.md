@@ -16,4 +16,6 @@
 |Ensembling|98.45|
 |Neural Network|99.98|
 
-### We see progressive improvement in classification with every model we try. With 
+#### We see progressive improvement in classification with every model we try. 
+
+The neural network has the best performance on the test set, as expected.
