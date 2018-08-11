@@ -8,7 +8,6 @@
 
 ## Content:
 1. [References](#references)
-
 1. [Related Work](#related-work)
 
 <HR>
