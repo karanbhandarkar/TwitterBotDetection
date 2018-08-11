@@ -8,6 +8,13 @@
 ## Content:
 Data Modelling
   * [Logistic Regression Model](#logistic-regression-model)
+  * [Logistic Regression with Cross Validation](#logistic-regression-with-cross-validation)
+  * [Logistic Regression with Polynomials of Degree 3](#logistic-regression-with-polynomials-of-degree-3)
+  * [Decision Tree Classifier](#decision-tree-classifier)
+  * [Random Forest Classifier](#random-forest-classifier)
+  * [Boosting - AdaBoost Classifier](#boosting-adaboost-classifier)
+  * [Ensemble Modelling](#ensemble-modelling)
+  * [Neural Networks](#neural-networks)
 
 <HR>
   
@@ -29,3 +36,54 @@ print("Test set score: {0:4.4}%".format(logit_model.score(X_test, y_test)*100))
 ~~~~
 Train set score: 89.52%
 Test set score: 89.62%
+
+[Back to top](#content)
+
+### Logistic Regression with Cross Validation
+
+~~~~
+~~~~
+
+[Back to top](#content)
+
+### Logistic Regression with Polynomials of Degree 3
+
+~~~~
+~~~~
+
+[Back to top](#content)
+
+### Decision Tree Classifier
+
+~~~~
+~~~~
+
+[Back to top](#content)
+
+### Random Forest Classifier
+
+~~~~
+~~~~
+
+[Back to top](#content)
+
+### Boosting - AdaBoost Classifier
+
+~~~~
+~~~~
+
+[Back to top](#content)
+
+### Ensemble Modelling
+
+~~~~
+~~~~
+
+[Back to top](#content)
+
+### Neural Networks
+
+~~~~
+~~~~
+
+[Back to top](#content)
