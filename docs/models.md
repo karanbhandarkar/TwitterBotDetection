@@ -12,7 +12,7 @@ Data Modelling
   * [Logistic Regression with Polynomials of Degree 3](#logistic-regression-with-polynomials-of-degree-3)
   * [Decision Tree Classifier](#decision-tree-classifier)
   * [Random Forest Classifier](#random-forest-classifier)
-  * [Boosting Adaboost Classifier](#boosting-adaboost-classifier)
+  * [Boosting AdaBoost Classifier](#boosting-adaboost-classifier)
   * [Ensemble Modelling](#ensemble-modelling)
   * [Neural Networks](#neural-networks)
 
@@ -67,7 +67,7 @@ Test set score: 89.62%
 
 [Back to top](#content)
 
-### Boosting - AdaBoost Classifier
+### Boosting AdaBoost Classifier
 
 ~~~~
 ~~~~
