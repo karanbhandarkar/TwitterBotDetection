@@ -170,6 +170,8 @@ for depth in range(1,4):
 fig.suptitle("Ada Boost Model Score vs # of iterations", fontsize=20)
     
 ~~~~
+<img src="images/AdaBoost.png"
+     style="float: left; margin-right: 10px;" />
 
 [Back to top](#content)
 
