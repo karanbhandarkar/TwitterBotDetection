@@ -12,5 +12,6 @@
 |Polynomial Logistic Regression|89.62|
 |Decision Tree Classifier|97.08|
 |Random Forest|100|
+|Boosting - AdaBoost Classifier|98|
 |Ensembling|98.45|
 |Neural Network|99.98|
