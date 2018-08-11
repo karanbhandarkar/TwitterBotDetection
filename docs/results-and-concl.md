@@ -5,6 +5,16 @@
 ### [Welcome](README.md)&emsp;|&emsp;[Introduction and EDA](intro-and-eda.md)&emsp;|&ensp;[Literature Review](lit-review.md)&emsp;|&emsp;[Models](models.md)&emsp;|&emsp;[**_Results and Conclusion_**](results-and-concl.md)
 <HR>
 
+
+## Content:
+1. [Results](#results)
+1. [Conclusion](#conclusion)
+1. [Future Work](#future-work)
+
+<HR>
+  
+### Results
+
 |Models|Test Performance Score|
 |------|----------------------|
 |Simple Logistic Regression|89.62|
@@ -16,6 +26,12 @@
 |Ensembling|98.45|
 |Neural Network|99.98|
 
-#### We see progressive improvement in classification with every model we try. 
+[Back to top](#content)
+
+### Conclusion
+
+We see progressive improvement in classification with every model we try. 
 
 The neural network has the best performance on the test set, as expected.
+
+### Future Work
