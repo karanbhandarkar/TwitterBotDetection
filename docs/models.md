@@ -226,14 +226,14 @@ model = Sequential([
 ~~~~
 model.summary()
 ~~~~
-<img src="images/NNModelSummary.htm"
+<img src="images/NNModelSummary.png"
      style="float: left; margin-right: 10px;" />
 ~~~~
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 model.fit(X_train, y_train, epochs=5, batch_size=32, validation_split = .2)
 ~~~~
-<img src="images/NNModelFit.htm"
+<img src="images/NNModelFit.png"
      style="float: left; margin-right: 10px;" />
 ~~~~
 print(model.evaluate(X_test, y_test))
