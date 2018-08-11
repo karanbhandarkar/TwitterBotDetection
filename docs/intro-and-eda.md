@@ -8,14 +8,14 @@
 ## Content:
 1. [Data Resources](#data-resources)
 2. [EDA](#eda) <BR>
-* [Ratio of Friends Count to Followers Count](#ratio-of-friends-count-to-followers-count) <BR>
-&emsp;b. [List Counts of Bots and Non-Bots](#list-counts-of-bots-and-non-bots) <BR>
-&emsp;c. [Verified Status of Bots and Non-Bots](#verified-status-of-bots-and-non-bots) <BR>
-&emsp;d. [Tweets per Day](#tweets-per-day) <BR>
-&emsp;e. [Extended Profile](#extended-profile) <BR>
-&emsp;f. [Default Profile Image](#default-profile-image) <BR>
-&emsp;g. [Default Profile](#default-profile) <BR>
-&emsp;h. [Word Cloud](#word-cloud) <BR>
+  * [Ratio of Friends Count to Followers Count](#ratio-of-friends-count-to-followers-count) <BR>
+  * [List Counts of Bots and Non-Bots](#list-counts-of-bots-and-non-bots) <BR>
+  * [Verified Status of Bots and Non-Bots](#verified-status-of-bots-and-non-bots) <BR>
+  * [Tweets per Day](#tweets-per-day) <BR>
+  * [Extended Profile](#extended-profile) <BR>
+  * [Default Profile Image](#default-profile-image) <BR>
+  * [Default Profile](#default-profile) <BR>
+  * [Word Cloud](#word-cloud) <BR>
 3. [Key Features](#key-features)
 
 <HR>
