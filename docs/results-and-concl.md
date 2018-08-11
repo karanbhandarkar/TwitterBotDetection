@@ -8,10 +8,12 @@
 |Models|Test Performance Score|
 |------|----------------------|
 |Simple Logistic Regression|89.62|
-|Logistic Regression with CV|89.62|
-|Polynomial Logistic Regression|89.62|
-|Decision Tree Classifier|97.08|
-|Random Forest|100|
+|Logistic Regression with CV|89.94|
+|Polynomial Logistic Regression|89.94|
+|Decision Tree Classifier|94.91|
+|Random Forest|97.02|
 |Boosting - AdaBoost Classifier|98|
 |Ensembling|98.45|
 |Neural Network|99.98|
+
+### We see progressive improvement in classification with every model we try. With 
