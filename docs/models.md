@@ -139,9 +139,7 @@ model_collection["random_forest"] = random_forest_model
 
 print("Random Forest model score is ", score)
 ~~~~
-Random Forest model score is  1.0
-
-Too good to be true?
+Random Forest model score is  0.9702
 
 [Back to top](#content)
 
