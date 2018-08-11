@@ -241,6 +241,7 @@ model.fit(X_train, y_train, epochs=5, batch_size=32, validation_split = .2)
 print(model.evaluate(X_test, y_test))
 ~~~~
 83624/83624 [==============================] - 2s 26us/step
+
 [0.04736951490943521, 0.9682029082560031]
 
 The accuracy and loss here is extremely impressive.
