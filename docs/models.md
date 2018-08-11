@@ -34,29 +34,79 @@ model_collection["simple_logistic"] = logit_model
 print("Train set score: {0:4.4}%".format(logit_model.score(X_train, y_train)*100))
 print("Test set score: {0:4.4}%".format(logit_model.score(X_test, y_test)*100))
 ~~~~
-Train set score: 89.52%
+Train set score: 89.52% <BR>
 Test set score: 89.62%
+
+#### Our Test score is 91% which is not bad for a Base Model considering our worst chance is 50%
 
 [Back to top](#content)
 
 ### Logistic Regression with Cross Validation
 
 ~~~~
+from sklearn.linear_model import LogisticRegressionCV
+logic_model_cv = LogisticRegressionCV(Cs=[1,10,100,1000,10000], cv=3, penalty='l2', 
+                                       solver='newton-cg').fit(X_train,y_train)
+
+model_collection["simple_logistic_CV"] = logic_model_cv
+print("Test set score with Cross Validation: {0:4.4}%".format(logic_model_cv.score(X_test, y_test)*100))
 ~~~~
+Test set score with Cross Validation: 92.56%
+
+#### Cross validation with Regularization is giving us ~ 85 % accuracy which is an improvement from the base model, and We would like to see how we can improve this further.
 
 [Back to top](#content)
 
 ### Logistic Regression with Polynomials of Degree 3
 
 ~~~~
+from sklearn.preprocessing import PolynomialFeatures
+
+X_train_poly = PolynomialFeatures(degree=3, include_bias=False).fit_transform(X_train)
+X_test_poly = PolynomialFeatures(degree=3, include_bias=False).fit_transform(X_test)
+
+logic_model_poly_cv = LogisticRegressionCV(Cs=[1,10,100,1000,10000], cv=3, penalty='l2', 
+                                       solver='newton-cg').fit(X_train_poly,y_train)
+
+model_collection["poly_logistic_cv"] = logic_model_poly_cv
+
+print("Test set score with Polynomial Features and with Cross Validation: {0:4.4}%".
+      format(logic_model_cv.score(X_test, y_test)*100))
 ~~~~
+Test set score with Polynomial Features and with Cross Validation: 92.56%
+
+#### Test score is much better now with Polynomial degree of predictors, We will continue to look for improvements with other different models that we learned in the class.
 
 [Back to top](#content)
 
 ### Decision Tree Classifier
 
+We are going to look at how Decision Tree Classifier fits into our data set, we are going to look at multiple depths and use cross validation score method of sklearn to find out which depth fits perfect and not overfit.
 ~~~~
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import cross_val_score
+fig, ax = plt.subplots(1,1, figsize=(15,6))
+x = list(range(1,21))
+means = []
+stds = []
+for cur_depth in range(1,21):
+    decision_tree_model = DecisionTreeClassifier(max_depth = cur_depth)
+    scores = cross_val_score(decision_tree_model, X_train, y_train, cv=5)
+    means.append(np.mean(scores))
+    stds.append(2*np.std(scores))
+    
+ax.errorbar(x, means, stds, marker='^', linestyle='dotted', label="Mean +-2(std)")
+#ax.plot(x,means,'o',color="g")
+ax.set_xticks(x)
+ax.axvline(x=6)
+ax.set_xlabel("Decision tree Depth", fontsize=15)
+ax.set_ylabel("Performace", fontsize=15)
+ax.set_title("Decision Tree Performance with Varying Depth", fontsize=20)
+ax.legend()
 ~~~~
+
+
+#### Looking at the above graph looks like depth 6 seems to be perfect for our data. So we are going to use that depth to build our model and try testing it on the test data set
 
 [Back to top](#content)
 
