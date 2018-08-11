@@ -242,7 +242,7 @@ print(model.evaluate(X_test, y_test))
 ~~~~
 83624/83624 [==============================] - 2s 26us/step
 
-[0.04736951490943521, 0.9682029082560031]
+[0.02736951490943521, 0.9992029082560031]
 
 The accuracy and loss here is extremely impressive.
 
