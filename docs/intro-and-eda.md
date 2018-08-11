@@ -102,10 +102,10 @@ Bot accounts have a much higher likelihood of having a default profile. It drops
 We can see that the non bots accounts have more meaning full text vs bot accounts are verbiage in some kind which is kind of what you would expect since most bot tweets are very short scripted with a youtube url ta or some link
 
 <img src="images/BotTweets.png"
-     style="float: left; margin-right: 10px;" />
+     style="float: center; margin-right: 10px;" />
 <BR>
 <img src="images/NonBotTweets.png"
-     style="float: left; margin-right: 10px;" />
+     style="float: center; margin-right: 10px;" />
 <BR>
 
 
