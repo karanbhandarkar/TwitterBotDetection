@@ -34,4 +34,8 @@ We see progressive improvement in classification with every model we try.
 
 The neural network has the best performance on the test set, as expected.
 
+[Back to top](#content)
+
 ### Future Work
+
+[Back to top](#content)
